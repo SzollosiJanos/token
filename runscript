@@ -1,1 +1,1 @@
-curl -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"TEST\"}" WEBHOOK
+curl -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"TEST\"}" WEBH
